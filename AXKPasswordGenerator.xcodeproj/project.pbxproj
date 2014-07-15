@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA8AA62F19754248002BA70C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8AA62E19754248002BA70C /* Foundation.framework */; };
+		FA8AA63119754248002BA70C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8AA63019754248002BA70C /* CoreGraphics.framework */; };
+		FA8AA63319754248002BA70C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8AA63219754248002BA70C /* UIKit.framework */; };
+		FA8AA63919754248002BA70C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA8AA63719754248002BA70C /* InfoPlist.strings */; };
+		FA8AA63B19754248002BA70C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8AA63A19754248002BA70C /* main.m */; };
+		FA8AA63F19754248002BA70C /* AXKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8AA63E19754248002BA70C /* AXKAppDelegate.m */; };
+		FA8AA64219754248002BA70C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA8AA64019754248002BA70C /* Main_iPhone.storyboard */; };
+		FA8AA64519754248002BA70C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA8AA64319754248002BA70C /* Main_iPad.storyboard */; };
+		FA8AA64819754248002BA70C /* AXKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8AA64719754248002BA70C /* AXKViewController.m */; };
+		FA8AA64A19754248002BA70C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8AA64919754248002BA70C /* Images.xcassets */; };
+		FA8AA65119754248002BA70C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8AA65019754248002BA70C /* XCTest.framework */; };
+		FA8AA65219754248002BA70C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8AA62E19754248002BA70C /* Foundation.framework */; };
+		FA8AA65319754248002BA70C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8AA63219754248002BA70C /* UIKit.framework */; };
+		FA8AA65B19754248002BA70C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA8AA65919754248002BA70C /* InfoPlist.strings */; };
+		FA8AA65D19754248002BA70C /* AXKPasswordGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8AA65C19754248002BA70C /* AXKPasswordGeneratorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA8AA65419754248002BA70C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA8AA62319754248002BA70C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA8AA62A19754248002BA70C;
+			remoteInfo = AXKPasswordGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA8AA62B19754248002BA70C /* AXKPasswordGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AXKPasswordGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8AA62E19754248002BA70C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA8AA63019754248002BA70C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA8AA63219754248002BA70C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA8AA63619754248002BA70C /* AXKPasswordGenerator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AXKPasswordGenerator-Info.plist"; sourceTree = "<group>"; };
+		FA8AA63819754248002BA70C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA8AA63A19754248002BA70C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA8AA63C19754248002BA70C /* AXKPasswordGenerator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AXKPasswordGenerator-Prefix.pch"; sourceTree = "<group>"; };
+		FA8AA63D19754248002BA70C /* AXKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AXKAppDelegate.h; sourceTree = "<group>"; };
+		FA8AA63E19754248002BA70C /* AXKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AXKAppDelegate.m; sourceTree = "<group>"; };
+		FA8AA64119754248002BA70C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		FA8AA64419754248002BA70C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		FA8AA64619754248002BA70C /* AXKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AXKViewController.h; sourceTree = "<group>"; };
+		FA8AA64719754248002BA70C /* AXKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AXKViewController.m; sourceTree = "<group>"; };
+		FA8AA64919754248002BA70C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA8AA64F19754248002BA70C /* AXKPasswordGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AXKPasswordGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8AA65019754248002BA70C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FA8AA65819754248002BA70C /* AXKPasswordGeneratorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AXKPasswordGeneratorTests-Info.plist"; sourceTree = "<group>"; };
+		FA8AA65A19754248002BA70C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA8AA65C19754248002BA70C /* AXKPasswordGeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AXKPasswordGeneratorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA8AA62819754248002BA70C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8AA63119754248002BA70C /* CoreGraphics.framework in Frameworks */,
+				FA8AA63319754248002BA70C /* UIKit.framework in Frameworks */,
+				FA8AA62F19754248002BA70C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8AA64C19754248002BA70C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8AA65119754248002BA70C /* XCTest.framework in Frameworks */,
+				FA8AA65319754248002BA70C /* UIKit.framework in Frameworks */,
+				FA8AA65219754248002BA70C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA8AA62219754248002BA70C = {
+			isa = PBXGroup;
+			children = (
+				FA8AA63419754248002BA70C /* AXKPasswordGenerator */,
+				FA8AA65619754248002BA70C /* AXKPasswordGeneratorTests */,
+				FA8AA62D19754248002BA70C /* Frameworks */,
+				FA8AA62C19754248002BA70C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA8AA62C19754248002BA70C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA8AA62B19754248002BA70C /* AXKPasswordGenerator.app */,
+				FA8AA64F19754248002BA70C /* AXKPasswordGeneratorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA8AA62D19754248002BA70C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA8AA62E19754248002BA70C /* Foundation.framework */,
+				FA8AA63019754248002BA70C /* CoreGraphics.framework */,
+				FA8AA63219754248002BA70C /* UIKit.framework */,
+				FA8AA65019754248002BA70C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA8AA63419754248002BA70C /* AXKPasswordGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				FA8AA63D19754248002BA70C /* AXKAppDelegate.h */,
+				FA8AA63E19754248002BA70C /* AXKAppDelegate.m */,
+				FA8AA64019754248002BA70C /* Main_iPhone.storyboard */,
+				FA8AA64319754248002BA70C /* Main_iPad.storyboard */,
+				FA8AA64619754248002BA70C /* AXKViewController.h */,
+				FA8AA64719754248002BA70C /* AXKViewController.m */,
+				FA8AA64919754248002BA70C /* Images.xcassets */,
+				FA8AA63519754248002BA70C /* Supporting Files */,
+			);
+			path = AXKPasswordGenerator;
+			sourceTree = "<group>";
+		};
+		FA8AA63519754248002BA70C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA8AA63619754248002BA70C /* AXKPasswordGenerator-Info.plist */,
+				FA8AA63719754248002BA70C /* InfoPlist.strings */,
+				FA8AA63A19754248002BA70C /* main.m */,
+				FA8AA63C19754248002BA70C /* AXKPasswordGenerator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA8AA65619754248002BA70C /* AXKPasswordGeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA8AA65C19754248002BA70C /* AXKPasswordGeneratorTests.m */,
+				FA8AA65719754248002BA70C /* Supporting Files */,
+			);
+			path = AXKPasswordGeneratorTests;
+			sourceTree = "<group>";
+		};
+		FA8AA65719754248002BA70C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA8AA65819754248002BA70C /* AXKPasswordGeneratorTests-Info.plist */,
+				FA8AA65919754248002BA70C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA8AA62A19754248002BA70C /* AXKPasswordGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8AA66019754248002BA70C /* Build configuration list for PBXNativeTarget "AXKPasswordGenerator" */;
+			buildPhases = (
+				FA8AA62719754248002BA70C /* Sources */,
+				FA8AA62819754248002BA70C /* Frameworks */,
+				FA8AA62919754248002BA70C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AXKPasswordGenerator;
+			productName = AXKPasswordGenerator;
+			productReference = FA8AA62B19754248002BA70C /* AXKPasswordGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA8AA64E19754248002BA70C /* AXKPasswordGeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8AA66319754248002BA70C /* Build configuration list for PBXNativeTarget "AXKPasswordGeneratorTests" */;
+			buildPhases = (
+				FA8AA64B19754248002BA70C /* Sources */,
+				FA8AA64C19754248002BA70C /* Frameworks */,
+				FA8AA64D19754248002BA70C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA8AA65519754248002BA70C /* PBXTargetDependency */,
+			);
+			name = AXKPasswordGeneratorTests;
+			productName = AXKPasswordGeneratorTests;
+			productReference = FA8AA64F19754248002BA70C /* AXKPasswordGeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA8AA62319754248002BA70C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AXK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Alexander Kolov";
+				TargetAttributes = {
+					FA8AA64E19754248002BA70C = {
+						TestTargetID = FA8AA62A19754248002BA70C;
+					};
+				};
+			};
+			buildConfigurationList = FA8AA62619754248002BA70C /* Build configuration list for PBXProject "AXKPasswordGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA8AA62219754248002BA70C;
+			productRefGroup = FA8AA62C19754248002BA70C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA8AA62A19754248002BA70C /* AXKPasswordGenerator */,
+				FA8AA64E19754248002BA70C /* AXKPasswordGeneratorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA8AA62919754248002BA70C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8AA64519754248002BA70C /* Main_iPad.storyboard in Resources */,
+				FA8AA64A19754248002BA70C /* Images.xcassets in Resources */,
+				FA8AA64219754248002BA70C /* Main_iPhone.storyboard in Resources */,
+				FA8AA63919754248002BA70C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8AA64D19754248002BA70C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8AA65B19754248002BA70C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA8AA62719754248002BA70C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8AA63B19754248002BA70C /* main.m in Sources */,
+				FA8AA63F19754248002BA70C /* AXKAppDelegate.m in Sources */,
+				FA8AA64819754248002BA70C /* AXKViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8AA64B19754248002BA70C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8AA65D19754248002BA70C /* AXKPasswordGeneratorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA8AA65519754248002BA70C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA8AA62A19754248002BA70C /* AXKPasswordGenerator */;
+			targetProxy = FA8AA65419754248002BA70C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA8AA63719754248002BA70C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA8AA63819754248002BA70C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA8AA64019754248002BA70C /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA8AA64119754248002BA70C /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		FA8AA64319754248002BA70C /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA8AA64419754248002BA70C /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		FA8AA65919754248002BA70C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA8AA65A19754248002BA70C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA8AA65E19754248002BA70C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA8AA65F19754248002BA70C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA8AA66119754248002BA70C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AXKPasswordGenerator/AXKPasswordGenerator-Prefix.pch";
+				INFOPLIST_FILE = "AXKPasswordGenerator/AXKPasswordGenerator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA8AA66219754248002BA70C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AXKPasswordGenerator/AXKPasswordGenerator-Prefix.pch";
+				INFOPLIST_FILE = "AXKPasswordGenerator/AXKPasswordGenerator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FA8AA66419754248002BA70C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AXKPasswordGenerator.app/AXKPasswordGenerator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AXKPasswordGenerator/AXKPasswordGenerator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AXKPasswordGeneratorTests/AXKPasswordGeneratorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FA8AA66519754248002BA70C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AXKPasswordGenerator.app/AXKPasswordGenerator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AXKPasswordGenerator/AXKPasswordGenerator-Prefix.pch";
+				INFOPLIST_FILE = "AXKPasswordGeneratorTests/AXKPasswordGeneratorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA8AA62619754248002BA70C /* Build configuration list for PBXProject "AXKPasswordGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8AA65E19754248002BA70C /* Debug */,
+				FA8AA65F19754248002BA70C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA8AA66019754248002BA70C /* Build configuration list for PBXNativeTarget "AXKPasswordGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8AA66119754248002BA70C /* Debug */,
+				FA8AA66219754248002BA70C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA8AA66319754248002BA70C /* Build configuration list for PBXNativeTarget "AXKPasswordGeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8AA66419754248002BA70C /* Debug */,
+				FA8AA66519754248002BA70C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA8AA62319754248002BA70C /* Project object */;
+}
