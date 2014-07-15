@@ -7,6 +7,7 @@
 //
 
 #import "AXKViewController.h"
+#import "AXKPasswordGenerator.h"
 
 @interface AXKViewController ()
 
@@ -14,16 +15,8 @@
 
 @implementation AXKViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)didTapButton:(id)sender {
+  self.label.text = [AXKPasswordGenerator generateWithLength:12 addDashes:YES];
 }
 
 @end

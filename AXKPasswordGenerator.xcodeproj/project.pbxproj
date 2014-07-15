@@ -22,6 +22,7 @@
 		FA8AA65319754248002BA70C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8AA63219754248002BA70C /* UIKit.framework */; };
 		FA8AA65B19754248002BA70C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA8AA65919754248002BA70C /* InfoPlist.strings */; };
 		FA8AA65D19754248002BA70C /* AXKPasswordGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8AA65C19754248002BA70C /* AXKPasswordGeneratorTests.m */; };
+		FA8AA669197542F1002BA70C /* AXKPasswordGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8AA668197542F1002BA70C /* AXKPasswordGenerator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,10 @@
 		FA8AA65819754248002BA70C /* AXKPasswordGeneratorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AXKPasswordGeneratorTests-Info.plist"; sourceTree = "<group>"; };
 		FA8AA65A19754248002BA70C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA8AA65C19754248002BA70C /* AXKPasswordGeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AXKPasswordGeneratorTests.m; sourceTree = "<group>"; };
+		FA8AA667197542F1002BA70C /* AXKPasswordGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXKPasswordGenerator.h; sourceTree = "<group>"; };
+		FA8AA668197542F1002BA70C /* AXKPasswordGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXKPasswordGenerator.m; sourceTree = "<group>"; };
+		FA8AA66A1975431C002BA70C /* AXKPasswordGeneratorTrigrams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AXKPasswordGeneratorTrigrams.h; sourceTree = "<group>"; };
+		FA8AA66B19756B22002BA70C /* AXKPasswordGenerator.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AXKPasswordGenerator.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +119,7 @@
 		FA8AA63419754248002BA70C /* AXKPasswordGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				FA8AA66619754295002BA70C /* Classes */,
 				FA8AA63D19754248002BA70C /* AXKAppDelegate.h */,
 				FA8AA63E19754248002BA70C /* AXKAppDelegate.m */,
 				FA8AA64019754248002BA70C /* Main_iPhone.storyboard */,
@@ -129,6 +135,7 @@
 		FA8AA63519754248002BA70C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FA8AA66B19756B22002BA70C /* AXKPasswordGenerator.podspec */,
 				FA8AA63619754248002BA70C /* AXKPasswordGenerator-Info.plist */,
 				FA8AA63719754248002BA70C /* InfoPlist.strings */,
 				FA8AA63A19754248002BA70C /* main.m */,
@@ -153,6 +160,16 @@
 				FA8AA65919754248002BA70C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA8AA66619754295002BA70C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FA8AA667197542F1002BA70C /* AXKPasswordGenerator.h */,
+				FA8AA668197542F1002BA70C /* AXKPasswordGenerator.m */,
+				FA8AA66A1975431C002BA70C /* AXKPasswordGeneratorTrigrams.h */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +274,7 @@
 				FA8AA63B19754248002BA70C /* main.m in Sources */,
 				FA8AA63F19754248002BA70C /* AXKAppDelegate.m in Sources */,
 				FA8AA64819754248002BA70C /* AXKViewController.m in Sources */,
+				FA8AA669197542F1002BA70C /* AXKPasswordGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
